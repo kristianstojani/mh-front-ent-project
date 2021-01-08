@@ -1,12 +1,14 @@
 html, body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif !important;
     height: 100%;
     width: 100%;
     font-size: 16px;
 }
-
+.row{
+	margin-right: 15px !important;
+    margin-left: 15px !important;
+}
 /* Header and header content */
-
 .bg-image {
     background-image: url('images/hero.jpg');
     height: 80%;
@@ -14,8 +16,11 @@ html, body {
     background-position: center;
     font-weight: 500;
     font-size: 0.9em;
-    filter: brightness(40%);
-    position: absolute;
+    	padding: 0px !important;
+}
+.bg-black {
+	background: rgb(0, 0, 0, 0.3);
+	height: 100% !important;
 }
 .navbar-button {
     border: white 2px solid;
@@ -27,8 +32,7 @@ html, body {
     color: #FA7C30 !important;
 }
 .header-content {
-    padding-top: 10%;
-    position: relative;
+    padding-top: 10%;;
 }
 .header-content h1 {
     font-size: 6em;
@@ -49,32 +53,96 @@ html, body {
     color: white;
     background-color: #FA7C30;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px 20px;
 }
 .header-content a:hover {
     text-decoration: none;
     color: black;
 }
-
-/* JUMBOTRON - second section */
-
-.jumbotron-second-section {
-   position: absolute;
+.nav-items li a{
+	float: right;
+}
+/* Second section */
+.second-section-heading h1{
+	font-weight: 600;
+}
+.second-section-heading h1 span {
+	color: #FA7C30;
+}
+.second-section-heading p {
+	margin-right: 50%;
+}
+.second-section-heading p:nth-child(1) {
+	font-weight: 700;
+}
+.second-section-heading p:nth-child(2) {
+	color: gray;
+}
+.second-section-heading a {
+    text-decoration: none;
+    color: white;
+    background-color: #FA7C30;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.second-section-heading a:hover {
+    text-decoration: none;
+    color: black;
+}
+.image-wrap img {
+	max-width: 90%;
+}
+.second-section-heading {
+	position: relative;
+	left: 10%;
+}
+/* Third section */
+.cards {
+	background-color: #F4F9FC;
+	width: 100%;
+	padding: 40px;
+}
+.first-box img {
+	max-width: 100%;
+}
+.cards a {
+	text-decoration: none;
+    color: white;
+    background-color: #FA7C30;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.cards a:hover {
+    text-decoration: none;
+    color: black;
+}
+.third-section-heading {
+	padding-left: 15px;
+	padding-top: 20px;
+	font-weight: 700px;
+}
+.third-section-heading h1 {
+	font-weight: 600;
+}
+.third-section-heading h1 span {
+	color: #FA7C30;
 }
 
 
-
-
-
 /* media screen */
-
+@media screen and (max-width:1110px) {
+    .second-section-heading p {
+        font-size: 0.8em;
+    }
 @media screen and (max-width:991px) {
     .navbar-nav>li>a {
         font-size: 1.2em !important;
     }
     .header-content {
-        padding-top: 15%;
+        padding-top: 10%;
         position: relative;
     }
     .header-content h1 {
@@ -83,14 +151,28 @@ html, body {
         font-weight: 700;
         color: white;
     }
+    .navbar-button {
+    	padding: 10px !important;
+    }
+    .second-section-heading {
+    	padding-top: 20px;
+    }
+	.second-section-heading p {
+	    margin-right: 20% !important;
+	}
+    .cards {
+    	padding: 10px;
+    	text-align: center;
+    }
 }
 @media screen and (max-width:767px) {
     .navbar-nav>li>a {
         font-size: 0.8em !important;
     }
     .header-content {
-        padding-top: 30%;
+        padding-top: 20%;
         position: relative;
+        text-align: center;
     }
     .header-content h1 {
         font-size: 2.5em;
@@ -105,9 +187,6 @@ html, body {
         font-weight: 400;
         text-align: center;
     }
-    .header-content{
-        text-align: center;
-    }
     .header-content a {
         text-decoration: none;
         color: white;
@@ -115,5 +194,21 @@ html, body {
         text-transform: uppercase;
         font-weight: 700;
         padding: 10px 20px;
+    }
+    .bg-black nav button {
+    	margin-right: 10px;
+    }
+    .second-section-heading {
+    	left:0% !important;
+    	padding-top: 20px;
+    }
+    .second-section-heading h1 {
+    	font-size: 2.6em;
+    }
+    .second-section-heading p {
+    	margin-right: auto !important;
+    }
+    .first-box {
+    	padding-top: 20px;
     }
 }
