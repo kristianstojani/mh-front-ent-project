@@ -11,12 +11,12 @@ html, body {
 /* Header and header content */
 .bg-image {
     background-image: url('images/hero.jpg');
-    height: 80%;
+    height: 100%;
     background-size: cover;
     background-position: center;
     font-weight: 500;
     font-size: 0.9em;
-    	padding: 0px !important;
+    padding: 0px !important;
 }
 .bg-black {
 	background: rgb(0, 0, 0, 0.3);
@@ -129,6 +129,43 @@ html, body {
 }
 .third-section-heading h1 span {
 	color: #FA7C30;
+}
+/* Fourth section */
+.bg-image-second {
+    background-image: url('images/image5.jpg');
+    height: 75%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.fourh-section-content {
+    padding-top: 15%;
+    color: white;
+}
+.fourh-section-content h3 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.fourh-section-content h1 {
+    font-size: 5em;
+    font-weight: 800;
+}
+.fourh-section-content a {
+    text-decoration: none;
+    color: white;
+    background-color: #FA7C30;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.fourh-section-content a:hover {
+    text-decoration: none;
+    color: black;
+}
+.fourh-section-content div {
+    padding-top: 20px;
 }
 
 
