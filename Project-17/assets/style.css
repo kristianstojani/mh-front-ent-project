@@ -167,7 +167,34 @@ html, body {
 .fourh-section-content div {
     padding-top: 20px;
 }
-
+.footer {
+    height: 50%;
+    background-color: rgb(20, 19, 19);
+}
+.footer-content img {
+    padding-top: 5%;
+}
+.footer-content p {
+    color: white;
+    padding: 20px 200px;
+}
+.copyright-info {
+    color: #FA7C30 !important;
+}
+.form-box {
+    border-radius: 0% !important;
+    border: none !important;
+    padding-left: 20px !important;
+    padding-right: 40px !important;
+}
+.footer-button {
+    background-color: #FA7C30 !important;
+    border-radius: 0% !important;
+    color: white !important;
+    font-weight: 700 !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
 
 /* media screen */
 @media screen and (max-width:1110px) {
