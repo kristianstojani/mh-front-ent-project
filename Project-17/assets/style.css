@@ -140,19 +140,19 @@ html, body {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-.fourh-section-content {
+.fourth-section-content {
     padding-top: 15%;
     color: white;
 }
-.fourh-section-content h3 {
+.fourth-section-content h3 {
     font-size: 2.5em;
     font-weight: 500;
 }
-.fourh-section-content h1 {
+.fourth-section-content h1 {
     font-size: 5em;
     font-weight: 800;
 }
-.fourh-section-content a {
+.fourth-section-content a {
     text-decoration: none;
     color: white;
     background-color: #FA7C30;
@@ -160,11 +160,11 @@ html, body {
     font-weight: 500;
     padding: 10px 20px;
 }
-.fourh-section-content a:hover {
+.fourth-section-content a:hover {
     text-decoration: none;
     color: black;
 }
-.fourh-section-content div {
+.fourth-section-content div {
     padding-top: 20px;
 }
 .footer {
@@ -228,6 +228,9 @@ html, body {
     	padding: 10px;
     	text-align: center;
     }
+    .bg-image-second {
+    height: 45%;
+}
 }
 @media screen and (max-width:767px) {
     .navbar-nav>li>a {
@@ -275,4 +278,40 @@ html, body {
     .first-box {
     	padding-top: 20px;
     }
+    .fourth-section-content h1 {
+    font-size: 3em;
+    font-weight: 800;
+    }
+    .footer-content p {
+        padding: 20px;
+    }
 }
+@media screen and (max-width:500px) {
+    .bg-image {
+        height: 70%;
+    }
+    .fourth-section-content h3{
+        padding-top: 15%;
+    }
+    .footer-content p {
+        padding: 20px;
+    }
+    .footer-button {
+        margin-top: 20px !important;
+    }
+    .footer-content img {
+        padding-top: 15%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
