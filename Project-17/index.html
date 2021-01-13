@@ -2,23 +2,13 @@
 <html lang="en">
   <head>
     <title>Fitness</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/style.css"
-      <meta
-      charset="UTF-8"
-    />
+    <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -181,48 +171,51 @@
     <!-- Fifth section  -->
     <div class="container">
     	<div class="row third-section-heading">
-        <div>
-          <h1>EXPERT <span>TRAINERS</span></h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
-        <div class="carousel slide" data-ride="carousel">
-        	<div class="carousel-item active">
-        		<div class="col-md-4" style="float: left">
-        			<div class="card"><img class="card-img-top" src="assets/images/image6.png"></div>
-        			<div class="card-body text-center">
-        			<h3 class="card-title">Sarra Miller</h3>
-        			<h5 class="card-text">SPINNING TRAINER</h5>
-        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        			</div>
-        		</div>
-        		<div class="col-md-4" style="float: left">
-        			<div class="card"><img class="card-img-top" src="assets/images/image7.png"></div>
-        			<div class="card-body text-center">
-        			<h3 class="card-title">John Doe</h3>
-        			<h5 class="card-text">BOOTCAMP TRAINER</h5>
-        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        			</div>
-        		</div>
-        		<div class="col-md-4" style="float: left">
-        			<div class="card"><img class="card-img-top" src="assets/images/image8.png"></div>
-        			<div class="card-body text-center">
-        			<h3 class="card-title">Bob Miller</h3>
-        			<h5 class="card-text">SPINNING TRAINER</h5>
-        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        			</div>
-        		</div>
-        	</div>
-        	<a class="left carousel-control bg-dark" href="#myCarousel" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span>
-		    <span class="sr-only">Next</span>
-		  </a>	
-        </div>
-      </div>
-   	</div>
+	        <div>
+	          <h1>EXPERT <span>TRAINERS</span></h1>
+	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	        </div>
+	        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol> 
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image6.png" class="img-fluid" alt=""></div></div>
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image7.png" class="img-fluid" alt=""></div></div>
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image8.png" class="img-fluid" alt=""></div></div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image8.png" class="img-fluid" alt=""></div></div>
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image7.png" class="img-fluid" alt=""></div></div>
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image6.png" class="img-fluid" alt=""></div></div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image6.png" class="img-fluid" alt=""></div></div>
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image7.png" class="img-fluid" alt=""></div></div>
+							<div class="col-sm-4"><div class="img-box"><img src="assets/images/image8.png" class="img-fluid" alt=""></div></div>
+						</div>
+					</div>
+					<!-- Carousel controls -->
+					<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+						<i class="fa fa-chevron-left"></i>
+					</a>
+					<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+						<i class="fa fa-chevron-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
     <!-- FOOTER -->
     <div class="container-fluid footer">
       <div class="container text-center float-center footer-content">

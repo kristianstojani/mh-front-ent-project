@@ -195,6 +195,36 @@ html, body {
     padding-left: 40px !important;
     padding-right: 40px !important;
 }
+/*CAROUSEL*/
+.carousel .carousel-item .img-box {
+    background: #fff;
+    padding: 9px;
+    box-shadow: 0 6px 20px -6px rgba(0,0,0,0.4);
+}
+.carousel-control-prev i {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin-top: -15px;
+    z-index: 5;
+    left: 0;
+    right: 160;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-control-next i {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin-top: -15px;
+    z-index: 5;
+    left: 160;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
 
 /* media screen */
 @media screen and (max-width:1110px) {
