@@ -170,6 +170,7 @@ html, body {
 .footer {
     height: 50%;
     background-color: rgb(20, 19, 19);
+    margin-top: 20px;
 }
 .footer-content img {
     padding-top: 5%;
@@ -195,7 +196,17 @@ html, body {
     padding-left: 40px !important;
     padding-right: 40px !important;
 }
+/*Fifth section*/
+.fifth-section-carousel {
+    max-width: 1300px !important;
+}
+.fifth-section {
+    padding-left: 7%;
+}
 /*CAROUSEL*/
+.carousel-item {
+    padding: 0px 50px;
+}
 .carousel .carousel-item .img-box {
     background: #fff;
     padding: 9px;
@@ -225,7 +236,22 @@ html, body {
     color: rgba(0, 0, 0, 0.8);
     text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
 }
-
+.carousel-control-next {
+    bottom: 130px !important;
+}
+.carousel-control-prev {
+    bottom: 130px !important;
+}
+.cards-content h3 {
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 2em;
+}
+.cards-content h5 {
+    color: #FA7C30;
+    font-size: 1em;
+    font-weight: 700;
+}
 /* media screen */
 @media screen and (max-width:1110px) {
     .second-section-heading p {
